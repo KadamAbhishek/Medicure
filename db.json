@@ -1,0 +1,70 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "title": "Cold, Cough & Fever"
+    },
+    {
+      "id": 2,
+      "title": "Dermatology"
+    },
+    {
+      "id": 3,
+      "title": "Stomach and digestion"
+    },
+    {
+      "id": 4,
+      "title": "Child not feeling well"
+    },
+    {
+      "id": 5,
+      "title": "Body / joint pain"
+    }
+    
+
+  ],
+  "Allopathy": [
+    {
+      "id": 1,
+      "name": "ABC Medicine",
+      "price": 300,
+      "url":"https://picsum.photos/200"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Medicine",
+      "price": 200,
+      "url":"https://picsum.photos/300"
+    },
+    {
+      "id": 3,
+      "name": "PQR Medicine",
+      "price": 400,
+      "url":"https://picsum.photos/100"
+    },
+    {
+      "id": 4,
+      "name": "MNO Medicine",
+      "price": 320,
+      "url":"https://picsum.photos/140"
+    },
+    {
+      "id": 5,
+      "name": "STR Medicine",
+      "price": 270,
+      "url":"https://picsum.photos/270"
+    },
+    {
+      "id": 6,
+      "name": "UVW Medicine",
+      "price": 480,
+      "url":"https://picsum.photos/480"
+    },
+    {
+      "id": 7,
+      "name": "EFG Medicine",
+      "price": 130,
+      "url":"https://picsum.photos/220"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+focus points:
+* providing medicine info based on level of illness.
+* 
+
+1. login/ sine up |  buyer/ seller
+2. home : search bar 
