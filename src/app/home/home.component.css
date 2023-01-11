@@ -1,0 +1,126 @@
+.imgbg{
+    background-image: url('../../assets/medicine.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    
+}
+.containerimg {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    /* center left text */
+    .center-left {
+        position: absolute;
+        top: 40%;
+        left: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        text-align: left;
+        width: 50%;
+      }
+
+      .button1 {
+        border-radius: 30px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 250px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 20px;
+      }
+      
+      .button1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button1 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button1:hover span {
+        padding-right: 25px;
+      }
+      
+      .button1:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      
+      /* this is card css properties */
+          
+      .price {
+        color: grey;
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .nga-card {
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+      }
+      
+      .nga-card-box {
+        display: block;
+        background-color: rgba(255, 255, 255, .8);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+        border-radius: 2px;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+      }
+      
+      .nga-card-box:hover {
+        transform: scale(1.07);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+
+      }
